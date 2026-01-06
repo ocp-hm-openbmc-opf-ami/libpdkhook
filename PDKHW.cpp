@@ -14,7 +14,7 @@
  *---------------------------------------------------------------------------*/
 int PDK_PlatformInit()
 {
-    //lg2::info("PDK_PlatformInit is invoked");
+    // lg2::info("PDK_PlatformInit is invoked");
     return 0;
 }
 
@@ -28,7 +28,7 @@ int PDK_PlatformInit()
  *-----------------------------------------------------------------*/
 int PDK_PostPlatformInit()
 {
-    //lg2::info("PDK_PostPlatformInit is invoked");
+    // lg2::info("PDK_PostPlatformInit is invoked");
     return 0;
 }
 

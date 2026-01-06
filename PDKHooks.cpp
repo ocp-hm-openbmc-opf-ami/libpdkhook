@@ -9,7 +9,7 @@
  *------------------------------------------------------------------------*/
 void PDK_BeforePowerOnChassis()
 {
-    //lg2::info("PDK BeforePowerOnChassis is invoked\n");
+    // lg2::info("PDK BeforePowerOnChassis is invoked\n");
     return;
 }
 
@@ -19,7 +19,7 @@ void PDK_BeforePowerOnChassis()
  *------------------------------------------------------------------------*/
 void PDK_AfterPowerOnChassis()
 {
-    //lg2::info("PDK AfterPowerOnChassis is invoked\n");
+    // lg2::info("PDK AfterPowerOnChassis is invoked\n");
     return;
 }
 /*-------------------------------------------------------------------------
@@ -29,7 +29,7 @@ void PDK_AfterPowerOnChassis()
  *------------------------------------------------------------------------*/
 void PDK_BeforePowerOffChassis()
 {
-    //lg2::info("PDK BeforePowerOffChassis is invoked\n");
+    // lg2::info("PDK BeforePowerOffChassis is invoked\n");
     return;
 }
 
@@ -39,7 +39,7 @@ void PDK_BeforePowerOffChassis()
  *------------------------------------------------------------------------*/
 void PDK_AfterPowerOffChassis()
 {
-    //lg2::info("PDK AfterPowerOffChassis is invoked\n");
+    // lg2::info("PDK AfterPowerOffChassis is invoked\n");
     return;
 }
 
@@ -49,7 +49,7 @@ void PDK_AfterPowerOffChassis()
  *--------------------------------------------------------------------*/
 void PDK_ResetChassis()
 {
-    //lg2::info("PDK ResetChassis is invoked\n");
+    // lg2::info("PDK ResetChassis is invoked\n");
     return;
 }
 
@@ -60,7 +60,7 @@ void PDK_ResetChassis()
  *------------------------------------------------------------------------*/
 void PDK_PowerCycleChassis()
 {
-    //lg2::info("PDK PowerCycleChassis is invoked\n");
+    // lg2::info("PDK PowerCycleChassis is invoked\n");
     return;
 }
 
@@ -70,7 +70,7 @@ void PDK_PowerCycleChassis()
  *------------------------------------------------------------------------*/
 void PDK_BMCWarmReset()
 {
-    //lg2::info("PDK BMCWarmReset is invoked\n");
+    // lg2::info("PDK BMCWarmReset is invoked\n");
     return;
 }
 
@@ -80,7 +80,7 @@ void PDK_BMCWarmReset()
  *------------------------------------------------------------------------*/
 void PDK_BMCColdReset()
 {
-    //lg2::info("PDK BMCColdReset is invoked\n");
+    // lg2::info("PDK BMCColdReset is invoked\n");
     return;
 }
 
@@ -91,8 +91,8 @@ void PDK_BMCColdReset()
  *----------------------------------------------------------------------*/
 void PDK_WatchdogAction()
 {
-    //lg2::info("PDK WatchdogAction is invoked\n");
-    // Do custom actions
+    // lg2::info("PDK WatchdogAction is invoked\n");
+    //  Do custom actions
     return;
 }
 
@@ -127,6 +127,6 @@ void PDK_SetRebootCause(const std::string& rebootCause)
  *------------------------------------------------------------------------*/
 void PDK_LPCReset()
 {
-    //lg2::info("PDK LPC Reset is invoked\n");
+    // lg2::info("PDK LPC Reset is invoked\n");
     return;
 }
