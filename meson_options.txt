@@ -1,4 +1,0 @@
-
-# meson_options.txt
-# Accept a 'tests' feature option.
-option('tests', type: 'feature',description: 'Build tests for libpdkhook')
